@@ -11,3 +11,6 @@ Repository for the Banker's Algorithm Operating Systems Project
     $ ./b_algorithm
 
 # References: 
+    1: Tutorial Article on GeeksForGeeks Website titled  "Banker's Algorithm in Operating Systems", last
+    updated Sept. 2023
+    link: https://www.geeksforgeeks.org/bankers-algorithm-in-operating-system-2/
