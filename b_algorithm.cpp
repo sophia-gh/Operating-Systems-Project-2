@@ -73,7 +73,7 @@ int main(){
     bool satisfies = true; 
     for(k = 0; k < i; k++){                       // loop through number of processes twice
         for(o = 0; o < i; o++){                   
-            if(!f[k]){                            //if process k not finished
+            if(!finish[k]){                            //if process k not finished
                 for(y = 0; y < j; y++){           //loop through resources
                     if (need[o][y] > work[y])    //if the need of process o and resource y 
                         satisfies = false;        //exceeds the available for resource y 
