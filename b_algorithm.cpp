@@ -66,6 +66,13 @@ int main(){
         work[o] = available[o];     //initialize with same values as available
     }
 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    // For the below algorithim I referenced the following Tutorial:
+    // Tutorial Article on GeeksForGeeks Website titled  "Banker's Algorithm in Operating Systems", last
+    // updated Sept. 2023
+    // link: https://www.geeksforgeeks.org/bankers-algorithm-in-operating-system-2/
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    
     //find sequence for which each instance of each resource can be worked on and finished according to the
     //need matrix
     int correct_sequence[i];                      //array to store correct sequence of processes

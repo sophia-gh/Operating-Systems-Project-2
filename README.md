@@ -13,7 +13,7 @@ Repository for the Banker's Algorithm Operating Systems Project
     At this point I have implemented the Banker's Algorithm according to the class lecture notes and the Example from Reference 1. There is a problem within my implementation of the algorithm where it loops through the data set to find a sequence that satisifies the following conditions:
         finish[i] = false;
         work[i] <= available[i]; 
-    As written currently the code compiles but Prints out "Unsafe!" Despite the data set containing a safe solution. It does not seem to reach line 87 for all "i" in the array correct_sequence. I am not sure why it has encountered this issue. It may be that it is not asssesing the propper values at the propper points within the nested for loops. 
+    As written currently the code compiles but Prints out "Unsafe!" Despite the data set containing a safe solution. It does not seem to reach line 87 for all "i" in the array correct_sequence. I am not sure why it has encountered this issue. It may be that it is not asssesing the propper values at the propper points within the nested for loops.
 # References: 
     1: Tutorial Article on GeeksForGeeks Website titled  "Banker's Algorithm in Operating Systems", last
     updated Sept. 2023
